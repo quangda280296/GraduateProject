@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.1"
+        android:visibility="visible" />
+
+    <include
+        layout="@layout/layout_map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.1"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/layout_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.1"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/layout_camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.1"
+        android:visibility="gone" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.9"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/navigation_selector"
+        app:itemTextColor="@drawable/navigation_selector"
+        app:menu="@menu/bottom_navigation" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">GraduateProject</string>
+
+    <string name="no_internet">No Internet connection</string>
+    <string name="press_back_again">Press back again to exit</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_camera">Camera</string>
+
+    <string name="restaurant">Restaurant</string>
+    <string name="cafe">Cafe</string>
+    <string name="hotel">Hotel</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="travel_agent">Travel Agent</string>
+
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+    <string name="loading_message">Uploading image! Please wait...</string>
+    <string name="no_gps">You have to turn on GPS</string>
+    <string name="search_here">Search here</string>
+    <string name="I_found_these_things">I found these things</string>
+    <string name="driving">Driving</string>
+    <string name="walking">Walking</string>
+    <string name="search">Search</string>
+    <string name="search_nearby">Search nearby</string>
+    <string name="go_to_map">Go to map</string>
+    <string name="list_of_taken_images">List of taken images</string>
+    <string name="starting_position">Starting position : </string>
+    <string name="turn_on_gps">Turn on GPS</string>
+    <string name="list_travel_place">List of tourist attraction :</string>
+    <string name="add">+ Add</string>
+    <string name="date_start">Starting date</string>
+    <string name="choose_date">Choose date</string>
+    <string name="at">At</string>
+    <string name="choose_hour">Choose time</string>
+    <string name="steps">Steps</string>
+    <string name="image">Image</string>
+    <string name="latitude">Latitude : </string>
+    <string name="longitude">Longitude : </string>
+    <string name="duration">Duration : </string>
+    <string name="distance">Distance : </string>
+    <string name="openning_time">Openning time : </string>
+    <string name="closing_time">Closing time : </string>
+    <string name="confirm">Confirm</string>
+    <string name="apply_if_done">Click here to apply if you have done</string>
+    <string name="finding_location">Finding your position ...</string>
+    <string name="schedule_name">Schedule\'s name :</string>
+    <string name="change">Change</string>
+    <string name="see_on_map">Click here to see your Schedule on Map</string>
+    <string name="try_again">Try again</string>
+    <string name="rename">Rename</string>
+    <string name="name">Name</string>
+    <string name="list_of_schedule">List of Schedule</string>
+    <string name="start_date">Start date :</string>
+    <string name="option">Option</string>
+    <string name="deleted">Deleted</string>
+    <string name="edit_name">Edit name</string>
+    <string name="edit">Edit</string>
+    <string name="choose_one_place">You need to choose at least one place for your schedule</string>
+    <string name="your_schedule">Your Schedule</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="need_date">You need to choose date</string>
+    <string name="need_hours">You need to choose hours</string>
+    <string name="delete">Delete</string>
+    <string name="start">Start date :</string>
+
+</resources>

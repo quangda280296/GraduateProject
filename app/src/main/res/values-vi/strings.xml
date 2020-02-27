@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Đồ án tốt nghiệp - Đỗ Anh Quang - 20146569</string>
+
+    <string name="no_internet">Không có kết nối Internet</string>
+    <string name="press_back_again">Ấn thêm lần nữa để thoát</string>
+
+    <string name="title_home">Trang chủ</string>
+    <string name="title_map">Bản đồ</string>
+    <string name="title_schedule">Lịch trình</string>
+    <string name="title_camera">Chụp ảnh</string>
+
+    <string name="restaurant">Nhà hàng</string>
+    <string name="cafe">Quán cà phê</string>
+    <string name="hotel">Khách sạn</string>
+    <string name="pharmacy">Hiệu thuốc</string>
+    <string name="supermarket">Siêu thị</string>
+    <string name="travel_agent">Đại lý du lịch</string>
+
+    <string name="image_picker_error">Đã xảy ra lỗi với ảnh này, vui lòng chọn ảnh khác</string>
+    <string name="loading_message">Đang tải ảnh lên! Vui lòng đợi</string>
+    <string name="no_gps">Bạn chưa bật GPS</string>
+    <string name="search_here">Ấn để tìm kiếm</string>
+    <string name="I_found_these_things">Kết quả phân tích</string>
+    <string name="driving">Lái xe</string>
+    <string name="walking">Đi bộ</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_nearby">Tìm kiếm xung quanh</string>
+    <string name="go_to_map">Truy cập bản đồ</string>
+    <string name="list_of_taken_images">Danh sách ảnh chụp</string>
+    <string name="starting_position">Vị trí xuất phát : </string>
+    <string name="turn_on_gps">Bật GPS</string>
+    <string name="list_travel_place">Danh sách địa điểm sẽ tham quan :</string>
+    <string name="add">+ Thêm</string>
+    <string name="date_start">Ngày đi</string>
+    <string name="choose_date">Chọn ngày</string>
+    <string name="at">Vào lúc</string>
+    <string name="choose_hour">Chọn giờ</string>
+    <string name="steps">Các bước</string>
+    <string name="image">Ảnh</string>
+    <string name="latitude">Vĩ độ : </string>
+    <string name="longitude">Kinh độ : </string>
+    <string name="duration">Khoảng thời gian : </string>
+    <string name="distance">Khoảng cách : </string>
+    <string name="openning_time">Giờ mở cửa:</string>
+    <string name="closing_time">Giờ đóng cửa:</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="apply_if_done">Ấn vào đây để xác nhận nếu bạn đã nhập đầy đủ dữ liệu</string>
+    <string name="finding_location">Đang xác định vị trí của bạn ...</string>
+    <string name="schedule_name">Tên lịch trình :</string>
+    <string name="change">Thay đổi</string>
+    <string name="see_on_map">Ấn vào đây để xem Lịch trình trên Bản đồ</string>
+    <string name="try_again">Thử lại</string>
+    <string name="rename">Đổi tên</string>
+    <string name="name">Tên</string>
+    <string name="list_of_schedule">Danh sách các lịch trình</string>
+    <string name="start_date">Ngày khởi hành :</string>
+    <string name="option">Lựa chọn</string>
+    <string name="deleted">Dữ liệu đã được xóa</string>
+    <string name="edit_name">Đổi tên</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="choose_one_place">Bạn cần chọn ít nhất một điểm đến cho lịch trình của bạn</string>
+    <string name="your_schedule">Lịch trình của bạn</string>
+    <string name="please_wait">Vui lòng đợi ...</string>
+    <string name="need_date">Bạn cần chọn ngày khởi hành</string>
+    <string name="need_hours">Bạn cần chọn giờ khởi hành</string>
+    <string name="delete">Xóa</string>
+    <string name="start">Ngày khởi hành :</string>
+</resources>

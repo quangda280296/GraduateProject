@@ -1,0 +1,362 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_poster_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/img_poster_1" />
+
+        <ImageView
+            android:id="@+id/img_poster_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:text="@string/search_nearby"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleDuration="350"
+                    app:mrl_rippleFadeDuration="75"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="30dp">
+
+                    <LinearLayout
+                        android:id="@+id/restaurant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_restaurant" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/restaurant"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleDuration="350"
+                    app:mrl_rippleFadeDuration="75"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="30dp">
+
+                    <LinearLayout
+                        android:id="@+id/cafe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_cafe" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cafe"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleDuration="350"
+                    app:mrl_rippleFadeDuration="75"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="30dp">
+
+                    <LinearLayout
+                        android:id="@+id/hotel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_hotel" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hotel"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleDuration="350"
+                    app:mrl_rippleFadeDuration="75"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="30dp">
+
+                    <LinearLayout
+                        android:id="@+id/pharmacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_pharmacy" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pharmacy"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleDuration="350"
+                    app:mrl_rippleFadeDuration="75"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="30dp">
+
+                    <LinearLayout
+                        android:id="@+id/supermarket"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_supermarket" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/supermarket"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleDuration="350"
+                    app:mrl_rippleFadeDuration="75"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="30dp">
+
+                    <LinearLayout
+                        android:id="@+id/travel_agent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_agency" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/travel_agent"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@android:color/darker_gray" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="10dp"
+                app:mrl_rippleDuration="350"
+                app:mrl_rippleFadeDuration="75"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleOverlay="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_go_to_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:src="@mipmap/ic_forward" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/go_to_map"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

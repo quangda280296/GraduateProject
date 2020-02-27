@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="10"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/lbl_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ellipsize="end"
+            android:text="One Championship here"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="" />
+
+        <TextView
+            android:id="@+id/lbl_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:text="@string/delete"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@mipmap/ic_clock_schedule" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian tham quan"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_date_start"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/blue_button"
+            android:text="Chọn thời gian"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>-->
+
+</LinearLayout>

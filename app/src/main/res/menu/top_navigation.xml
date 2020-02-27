@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_driving"
+        android:enabled="true"
+        android:icon="@mipmap/ic_driving"
+        android:title="@string/driving"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_walking"
+        android:icon="@mipmap/ic_walking"
+        android:title="@string/walking"
+        app:showAsAction="always" />
+
+</menu>
